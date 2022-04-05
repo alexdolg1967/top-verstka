@@ -1,0 +1,22 @@
+.first-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: var(--slider-height);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--first-bg);
+    transition: left 4.5s;
+    z-index: 200;
+
+    &.run--demo {
+        left: -105%;
+    }
+
+    &__btn {
+        padding: 11px 19px;
+        font-size: 16px;
+    }
+}

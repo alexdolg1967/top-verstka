@@ -1,0 +1,15 @@
+.header {
+    &-container {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        @media (min-width: 992px) {
+            gap: 30px;
+        }
+
+        @include for-big {
+            gap: 49px;
+        }
+    }
+

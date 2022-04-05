@@ -1,0 +1,20 @@
+// если вы хотите использовать sass-переменные - удалите root
+// colors
+:root {
+    // base
+    --font-family: "OpenSans", Arial, Helvetica, sans-serif;
+    --content-width: 1140px;
+    --container-offset: 15px;
+    --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+    --header-top-height: 130px;
+    --slider-height: 451px;
+    @media (min-width: 1300px) {
+        --slider-height: 675px;
+    }
+
+    // colors
+    --first-bg: #c4cdd6;
+    --light-color: #fff;
+    --accent-color: #ff891e;
+    --text-color: #000000;
+}

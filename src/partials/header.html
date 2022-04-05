@@ -1,0 +1,164 @@
+<header class="header">
+    <div class="container header-container">
+        <div class="header-top">
+            <a href="/" class="header-top__logo">
+                <div class="header-top__logo-wrapper">
+                    <img src="./img/logo.svg" class="header-top__logo-img" alt="Логотип магазина инструментов"
+                        loading="lazy">
+                </div>
+                <span class="header-top__logo-text">Магазин инструмента</span>
+            </a>
+            <nav class="header-top__menu top-menu" data-menu>
+                <ul class="top-menu__list list-reset">
+                    <li class="top-menu__item">
+                        <a href="#" class="top-menu__link">Каталог инструментов</a>
+                    </li>
+                    <li class="top-menu__item">
+                        <a href="#" class="top-menu__link">Все для сада</a>
+                    </li>
+                    <li class="top-menu__item">
+                        <a href="#" class="top-menu__link">Ручной инструмент</a>
+                    </li>
+                    <li class="top-menu__item">
+                        <a href="#" class="top-menu__link">Электрика</a>
+                    </li>
+                    <li class="top-menu__item">
+                        <a href="#" class="top-menu__link">Доставка</a>
+                    </li>
+                    <li class="top-menu__item">
+                        <a href="#" class="top-menu__link">Оплата</a>
+                    </li>
+                    <li class="top-menu__item">
+                        <a href="#" class="top-menu__link">О нас</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header-top__buttons">
+                <button class="btn btn-reset">Вход</button>
+                <button class="btn btn-reset">Регистрация</button>
+                <button class="burger" aria-label="Открыть меню" aria-expanded="false" data-burger>
+                    <span class="burger__line"></span>
+                </button>
+            </div>
+            <a href="#" target="_blank" class="header-top__banner"></a>
+            <div class="header-top__carts carts">
+                <div class="carts users-buttons">
+                    <button class="users-buttons__cart btn-reset">
+                        <svg class="users-buttons__cart-icon">
+                            <use xlink:href="img/sprite.svg#cart"></use>
+                        </svg>
+                        <span><span class="count">3</span><span class="text"> шт. / 17 250 р.</span></span>
+                    </button>
+                    <button class="users-buttons__favorite btn-reset">
+                        <svg class="users-buttons__favorite-icon">
+                            <use xlink:href="img/sprite.svg#favor"></use>
+                        </svg>
+                        <span><span class="text">Избранное (</span><span class="count">7</span><span
+                                class="text">)</span></span>
+                    </button>
+                    <button class="users-buttons__balance btn-reset">
+                        <svg class="users-buttons__balance-icon">
+                            <use xlink:href="img/sprite.svg#balance"></use>
+                        </svg>
+                        <span><span class="text">К сравнению (</span><span class="count">5</span><span
+                                class="text">)</span></span>
+                    </button>
+                </div>
+                <div class="carts hits-items">
+                    <a href="#" class="hits-items__img">
+                        <picture>
+                            <source srcset="./img/catalog/01.avif" type="image/avif">
+                            <source srcset="./img/catalog/01.webp" type="image/webp">
+                            <img loading="lazy" src="./img/catalog/01.png" class="image" width="" height="" alt="">
+                        </picture>
+                    </a>
+                    <a href="#" class="hits-items__img">
+                        <picture>
+                            <source srcset="./img/catalog/02.avif" type="image/avif">
+                            <source srcset="./img/catalog/02.webp" type="image/webp">
+                            <img loading="lazy" src="./img/catalog/02.png" class="image" width="" height="" alt="">
+                        </picture>
+                    </a>
+                    <a href="#" class="hits-items__img">
+                        <picture>
+                            <source srcset="./img/catalog/03.avif" type="image/avif">
+                            <source srcset="./img/catalog/03.webp" type="image/webp">
+                            <img loading="lazy" src="./img/catalog/03.png" class="image" width="" height="" alt="">
+                        </picture>
+                    </a>
+                </div>
+            </div>
+            <div class="header-top__contacts contacts">
+                <div class="contacts-top">
+                    <span>Время работы:</span>
+                    <span>10:00 — 19:00</span>
+                </div>
+                <a href="tel:84957212525" class="contacts__phone">8 495 721-25-25</a>
+                <div class="contacts__bottom">
+                    <span id="city">Москва</span>
+                    <details>
+                        <summary>
+                            <span>сменить</span>
+                        </summary>
+                        <ul class="list-reset" id="changeCity">
+                            <li>
+                                <span>Москва</span>
+                            </li>
+                            <li>
+                                <span>Санкт-Петербург</span>
+                            </li>
+                            <li>
+                                <span>Волгоград</span>
+                            </li>
+                        </ul>
+                    </details>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="catalog-mobile">
+                <button class="catalog-burger" aria-label="Открыть каталог" data-burger-catalog>
+                    <span class="burger__line"></span>
+                </button>
+                <span>Каталог</span>
+            </div>
+            <div class="search">
+                <button class="search-btn btn-reset">
+                    <svg class="search-icon">
+                        <use xlink:href="img/sprite.svg#search"></use>
+                    </svg>
+                </button>
+                <input type="search" class="search-input" name="search" id="search" placeholder="Найти...">
+            </div>
+            <nav class="header-bottom__menu main-menu" data-menu-catalog>
+                <ul class="main-menu__list list-reset">
+                    <li class="main-menu__item item-active">
+                        <a href="#" class="main-menu__link">Перфораторы</a>
+                    </li>
+                    <li class="main-menu__item">
+                        <a href="#" class="main-menu__link">Дрели</a>
+                    </li>
+                    <li class="main-menu__item">
+                        <a href="#" class="main-menu__link">Шлифмашины</a>
+                    </li>
+                    <li class="main-menu__item">
+                        <a href="#" class="main-menu__link">Пистолеты</a>
+                    </li>
+                    <li class="main-menu__item">
+                        <a href="#" class="main-menu__link">Электропилы</a>
+                    </li>
+                    <li class="main-menu__item">
+                        <a href="#" class="main-menu__link">Наборы инструментов</a>
+                    </li>
+                    <li class="main-menu__item">
+                        <a href="#" class="main-menu__link">Акксессуары</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="header-bottom__bonus btn-reset">
+                Распродажа
+            </button>
+        </div>
+
+    </div>
+</header>
