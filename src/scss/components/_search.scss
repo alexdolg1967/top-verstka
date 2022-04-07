@@ -7,13 +7,13 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 100%;
+        order: 2;
         padding: 9px 8px 8px;
-        background-color: var(--accent-color);
         border-top-right-radius: 6px;
         border-bottom-right-radius: 6px;
+        height: 100%;
+        background-color: var(--accent-color);
         cursor: pointer;
-        order: 2;
 
         @include for-desktop {
             order: 1;

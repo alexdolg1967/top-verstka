@@ -2,11 +2,11 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    height: var(--slider-height);
     display: flex;
     justify-content: center;
+    width: 100%;
     align-items: center;
+    height: var(--slider-height);
     background-color: var(--first-bg);
     transition: left 4.5s;
     z-index: 200;
